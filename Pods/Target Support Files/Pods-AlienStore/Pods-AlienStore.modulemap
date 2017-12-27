@@ -1,0 +1,6 @@
+framework module Pods_AlienStore {
+  umbrella header "Pods-AlienStore-umbrella.h"
+
+  export *
+  module * { export * }
+}

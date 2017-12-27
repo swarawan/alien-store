@@ -1,0 +1,782 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F24697178C60BAC71D5E20F /* Pods_AlienStoreTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1800F40CC0193F1A3C54523 /* Pods_AlienStoreTests.framework */; };
+		26DB5E211FF3388700078EA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DB5E201FF3388700078EA9 /* AppDelegate.swift */; };
+		26DB5E231FF3388700078EA9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DB5E221FF3388700078EA9 /* ViewController.swift */; };
+		26DB5E261FF3388700078EA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26DB5E241FF3388700078EA9 /* Main.storyboard */; };
+		26DB5E281FF3388700078EA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26DB5E271FF3388700078EA9 /* Assets.xcassets */; };
+		26DB5E2B1FF3388700078EA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26DB5E291FF3388700078EA9 /* LaunchScreen.storyboard */; };
+		26DB5E361FF3388700078EA9 /* AlienStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DB5E351FF3388700078EA9 /* AlienStoreTests.swift */; };
+		26DB5E411FF3388700078EA9 /* AlienStoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DB5E401FF3388700078EA9 /* AlienStoreUITests.swift */; };
+		C7D38D76CFF058B67AD39200 /* Pods_AlienStoreUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74C201F7D0A694928FB709A1 /* Pods_AlienStoreUITests.framework */; };
+		CD20972D0AD81DDD0F549A1B /* Pods_AlienStore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5F69633BD5D6B44F341EFB /* Pods_AlienStore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		26DB5E321FF3388700078EA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26DB5E151FF3388700078EA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26DB5E1C1FF3388700078EA9;
+			remoteInfo = AlienStore;
+		};
+		26DB5E3D1FF3388700078EA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26DB5E151FF3388700078EA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26DB5E1C1FF3388700078EA9;
+			remoteInfo = AlienStore;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		16DEE816A38B41EE35AE0154 /* Pods-AlienStoreUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlienStoreUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AlienStoreUITests/Pods-AlienStoreUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		26DB5E1D1FF3388700078EA9 /* AlienStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlienStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		26DB5E201FF3388700078EA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		26DB5E221FF3388700078EA9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		26DB5E251FF3388700078EA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		26DB5E271FF3388700078EA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		26DB5E2A1FF3388700078EA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		26DB5E2C1FF3388700078EA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26DB5E311FF3388700078EA9 /* AlienStoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlienStoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		26DB5E351FF3388700078EA9 /* AlienStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlienStoreTests.swift; sourceTree = "<group>"; };
+		26DB5E371FF3388700078EA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26DB5E3C1FF3388700078EA9 /* AlienStoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlienStoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		26DB5E401FF3388700078EA9 /* AlienStoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlienStoreUITests.swift; sourceTree = "<group>"; };
+		26DB5E421FF3388700078EA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D5F69633BD5D6B44F341EFB /* Pods_AlienStore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlienStore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D185479F287CDBDEA641195 /* Pods-AlienStore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlienStore.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AlienStore/Pods-AlienStore.debug.xcconfig"; sourceTree = "<group>"; };
+		74C201F7D0A694928FB709A1 /* Pods_AlienStoreUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlienStoreUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8382A36937BEA421B4319C8F /* Pods-AlienStore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlienStore.release.xcconfig"; path = "Pods/Target Support Files/Pods-AlienStore/Pods-AlienStore.release.xcconfig"; sourceTree = "<group>"; };
+		8DAB15CDA89E6E53FACA5756 /* Pods-AlienStoreTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlienStoreTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AlienStoreTests/Pods-AlienStoreTests.release.xcconfig"; sourceTree = "<group>"; };
+		C1800F40CC0193F1A3C54523 /* Pods_AlienStoreTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlienStoreTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA465465CC7EC01A9AC1BB73 /* Pods-AlienStoreUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlienStoreUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AlienStoreUITests/Pods-AlienStoreUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FAFB931111F093499A9768AF /* Pods-AlienStoreTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlienStoreTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AlienStoreTests/Pods-AlienStoreTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26DB5E1A1FF3388700078EA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD20972D0AD81DDD0F549A1B /* Pods_AlienStore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26DB5E2E1FF3388700078EA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F24697178C60BAC71D5E20F /* Pods_AlienStoreTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26DB5E391FF3388700078EA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7D38D76CFF058B67AD39200 /* Pods_AlienStoreUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21E81A1F393D2DF29A835A2D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5D185479F287CDBDEA641195 /* Pods-AlienStore.debug.xcconfig */,
+				8382A36937BEA421B4319C8F /* Pods-AlienStore.release.xcconfig */,
+				FAFB931111F093499A9768AF /* Pods-AlienStoreTests.debug.xcconfig */,
+				8DAB15CDA89E6E53FACA5756 /* Pods-AlienStoreTests.release.xcconfig */,
+				16DEE816A38B41EE35AE0154 /* Pods-AlienStoreUITests.debug.xcconfig */,
+				EA465465CC7EC01A9AC1BB73 /* Pods-AlienStoreUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		26DB5E141FF3388700078EA9 = {
+			isa = PBXGroup;
+			children = (
+				26DB5E1F1FF3388700078EA9 /* AlienStore */,
+				26DB5E341FF3388700078EA9 /* AlienStoreTests */,
+				26DB5E3F1FF3388700078EA9 /* AlienStoreUITests */,
+				26DB5E1E1FF3388700078EA9 /* Products */,
+				21E81A1F393D2DF29A835A2D /* Pods */,
+				C6AC2F03BF08EC65D8F47436 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		26DB5E1E1FF3388700078EA9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26DB5E1D1FF3388700078EA9 /* AlienStore.app */,
+				26DB5E311FF3388700078EA9 /* AlienStoreTests.xctest */,
+				26DB5E3C1FF3388700078EA9 /* AlienStoreUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26DB5E1F1FF3388700078EA9 /* AlienStore */ = {
+			isa = PBXGroup;
+			children = (
+				26DB5E4E1FF3389700078EA9 /* module */,
+				26DB5E201FF3388700078EA9 /* AppDelegate.swift */,
+				26DB5E221FF3388700078EA9 /* ViewController.swift */,
+				26DB5E241FF3388700078EA9 /* Main.storyboard */,
+				26DB5E271FF3388700078EA9 /* Assets.xcassets */,
+				26DB5E291FF3388700078EA9 /* LaunchScreen.storyboard */,
+				26DB5E2C1FF3388700078EA9 /* Info.plist */,
+			);
+			path = AlienStore;
+			sourceTree = "<group>";
+		};
+		26DB5E341FF3388700078EA9 /* AlienStoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				26DB5E351FF3388700078EA9 /* AlienStoreTests.swift */,
+				26DB5E371FF3388700078EA9 /* Info.plist */,
+			);
+			path = AlienStoreTests;
+			sourceTree = "<group>";
+		};
+		26DB5E3F1FF3388700078EA9 /* AlienStoreUITests */ = {
+			isa = PBXGroup;
+			children = (
+				26DB5E401FF3388700078EA9 /* AlienStoreUITests.swift */,
+				26DB5E421FF3388700078EA9 /* Info.plist */,
+			);
+			path = AlienStoreUITests;
+			sourceTree = "<group>";
+		};
+		26DB5E4E1FF3389700078EA9 /* module */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = module;
+			sourceTree = "<group>";
+		};
+		C6AC2F03BF08EC65D8F47436 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D5F69633BD5D6B44F341EFB /* Pods_AlienStore.framework */,
+				C1800F40CC0193F1A3C54523 /* Pods_AlienStoreTests.framework */,
+				74C201F7D0A694928FB709A1 /* Pods_AlienStoreUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		26DB5E1C1FF3388700078EA9 /* AlienStore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26DB5E451FF3388700078EA9 /* Build configuration list for PBXNativeTarget "AlienStore" */;
+			buildPhases = (
+				897843E0D42880F3066E3A2A /* [CP] Check Pods Manifest.lock */,
+				26DB5E191FF3388700078EA9 /* Sources */,
+				26DB5E1A1FF3388700078EA9 /* Frameworks */,
+				26DB5E1B1FF3388700078EA9 /* Resources */,
+				B56856B400C277F41A646BEC /* [CP] Embed Pods Frameworks */,
+				2EDF1DDE4FD803866417FF89 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlienStore;
+			productName = AlienStore;
+			productReference = 26DB5E1D1FF3388700078EA9 /* AlienStore.app */;
+			productType = "com.apple.product-type.application";
+		};
+		26DB5E301FF3388700078EA9 /* AlienStoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26DB5E481FF3388700078EA9 /* Build configuration list for PBXNativeTarget "AlienStoreTests" */;
+			buildPhases = (
+				B4B6CFC6EB12479BEA6AC065 /* [CP] Check Pods Manifest.lock */,
+				26DB5E2D1FF3388700078EA9 /* Sources */,
+				26DB5E2E1FF3388700078EA9 /* Frameworks */,
+				26DB5E2F1FF3388700078EA9 /* Resources */,
+				E638019A51CDF96C2E4B4B05 /* [CP] Embed Pods Frameworks */,
+				682E342F7BB0A5F8A4B7C3EB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26DB5E331FF3388700078EA9 /* PBXTargetDependency */,
+			);
+			name = AlienStoreTests;
+			productName = AlienStoreTests;
+			productReference = 26DB5E311FF3388700078EA9 /* AlienStoreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		26DB5E3B1FF3388700078EA9 /* AlienStoreUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26DB5E4B1FF3388700078EA9 /* Build configuration list for PBXNativeTarget "AlienStoreUITests" */;
+			buildPhases = (
+				18BA24CC921F9D4EAA6D5AC7 /* [CP] Check Pods Manifest.lock */,
+				26DB5E381FF3388700078EA9 /* Sources */,
+				26DB5E391FF3388700078EA9 /* Frameworks */,
+				26DB5E3A1FF3388700078EA9 /* Resources */,
+				FE3B234788E26BB883314A3C /* [CP] Embed Pods Frameworks */,
+				DC3192848F342DA199D32481 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26DB5E3E1FF3388700078EA9 /* PBXTargetDependency */,
+			);
+			name = AlienStoreUITests;
+			productName = AlienStoreUITests;
+			productReference = 26DB5E3C1FF3388700078EA9 /* AlienStoreUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		26DB5E151FF3388700078EA9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Rio Swarawan";
+				TargetAttributes = {
+					26DB5E1C1FF3388700078EA9 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					26DB5E301FF3388700078EA9 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 26DB5E1C1FF3388700078EA9;
+					};
+					26DB5E3B1FF3388700078EA9 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 26DB5E1C1FF3388700078EA9;
+					};
+				};
+			};
+			buildConfigurationList = 26DB5E181FF3388700078EA9 /* Build configuration list for PBXProject "AlienStore" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 26DB5E141FF3388700078EA9;
+			productRefGroup = 26DB5E1E1FF3388700078EA9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26DB5E1C1FF3388700078EA9 /* AlienStore */,
+				26DB5E301FF3388700078EA9 /* AlienStoreTests */,
+				26DB5E3B1FF3388700078EA9 /* AlienStoreUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26DB5E1B1FF3388700078EA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26DB5E2B1FF3388700078EA9 /* LaunchScreen.storyboard in Resources */,
+				26DB5E281FF3388700078EA9 /* Assets.xcassets in Resources */,
+				26DB5E261FF3388700078EA9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26DB5E2F1FF3388700078EA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26DB5E3A1FF3388700078EA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		18BA24CC921F9D4EAA6D5AC7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AlienStoreUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2EDF1DDE4FD803866417FF89 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AlienStore/Pods-AlienStore-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		682E342F7BB0A5F8A4B7C3EB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AlienStoreTests/Pods-AlienStoreTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		897843E0D42880F3066E3A2A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AlienStore-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4B6CFC6EB12479BEA6AC065 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AlienStoreTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B56856B400C277F41A646BEC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AlienStore/Pods-AlienStore-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AlienStore/Pods-AlienStore-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC3192848F342DA199D32481 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AlienStoreUITests/Pods-AlienStoreUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E638019A51CDF96C2E4B4B05 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AlienStoreTests/Pods-AlienStoreTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE3B234788E26BB883314A3C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AlienStoreUITests/Pods-AlienStoreUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26DB5E191FF3388700078EA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26DB5E231FF3388700078EA9 /* ViewController.swift in Sources */,
+				26DB5E211FF3388700078EA9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26DB5E2D1FF3388700078EA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26DB5E361FF3388700078EA9 /* AlienStoreTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26DB5E381FF3388700078EA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26DB5E411FF3388700078EA9 /* AlienStoreUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		26DB5E331FF3388700078EA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26DB5E1C1FF3388700078EA9 /* AlienStore */;
+			targetProxy = 26DB5E321FF3388700078EA9 /* PBXContainerItemProxy */;
+		};
+		26DB5E3E1FF3388700078EA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26DB5E1C1FF3388700078EA9 /* AlienStore */;
+			targetProxy = 26DB5E3D1FF3388700078EA9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		26DB5E241FF3388700078EA9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26DB5E251FF3388700078EA9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		26DB5E291FF3388700078EA9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26DB5E2A1FF3388700078EA9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		26DB5E431FF3388700078EA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		26DB5E441FF3388700078EA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		26DB5E461FF3388700078EA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D185479F287CDBDEA641195 /* Pods-AlienStore.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2D7X2P7E75;
+				INFOPLIST_FILE = AlienStore/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.swarawan.AlienStore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		26DB5E471FF3388700078EA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8382A36937BEA421B4319C8F /* Pods-AlienStore.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2D7X2P7E75;
+				INFOPLIST_FILE = AlienStore/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.swarawan.AlienStore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		26DB5E491FF3388700078EA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAFB931111F093499A9768AF /* Pods-AlienStoreTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2D7X2P7E75;
+				INFOPLIST_FILE = AlienStoreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.swarawan.AlienStoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlienStore.app/AlienStore";
+			};
+			name = Debug;
+		};
+		26DB5E4A1FF3388700078EA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DAB15CDA89E6E53FACA5756 /* Pods-AlienStoreTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2D7X2P7E75;
+				INFOPLIST_FILE = AlienStoreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.swarawan.AlienStoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlienStore.app/AlienStore";
+			};
+			name = Release;
+		};
+		26DB5E4C1FF3388700078EA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16DEE816A38B41EE35AE0154 /* Pods-AlienStoreUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2D7X2P7E75;
+				INFOPLIST_FILE = AlienStoreUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.swarawan.AlienStoreUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AlienStore;
+			};
+			name = Debug;
+		};
+		26DB5E4D1FF3388700078EA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA465465CC7EC01A9AC1BB73 /* Pods-AlienStoreUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2D7X2P7E75;
+				INFOPLIST_FILE = AlienStoreUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.swarawan.AlienStoreUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AlienStore;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26DB5E181FF3388700078EA9 /* Build configuration list for PBXProject "AlienStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26DB5E431FF3388700078EA9 /* Debug */,
+				26DB5E441FF3388700078EA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26DB5E451FF3388700078EA9 /* Build configuration list for PBXNativeTarget "AlienStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26DB5E461FF3388700078EA9 /* Debug */,
+				26DB5E471FF3388700078EA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26DB5E481FF3388700078EA9 /* Build configuration list for PBXNativeTarget "AlienStoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26DB5E491FF3388700078EA9 /* Debug */,
+				26DB5E4A1FF3388700078EA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26DB5E4B1FF3388700078EA9 /* Build configuration list for PBXNativeTarget "AlienStoreUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26DB5E4C1FF3388700078EA9 /* Debug */,
+				26DB5E4D1FF3388700078EA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 26DB5E151FF3388700078EA9 /* Project object */;
+}

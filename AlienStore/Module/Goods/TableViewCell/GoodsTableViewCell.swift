@@ -1,5 +1,5 @@
 //
-//  MainTableViewCell.swift
+//  GoodsTableViewCell.swift
 //  AlienStore
 //
 //  Created by Rio Swarawan on 12/27/17.
@@ -8,10 +8,11 @@
 
 import UIKit
 
-class MainTableViewCell: UITableViewCell {
+class GoodsTableViewCell: UITableViewCell {
 
-    @IBOutlet weak var menuLabel: UILabel!
-    @IBOutlet weak var menuImage: UIImageView!
+    @IBOutlet weak var goodsImage: UIImageView!
+    @IBOutlet weak var goodsNameLabel: UILabel!
+    @IBOutlet weak var goodsBrandLabel: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -24,8 +25,4 @@ class MainTableViewCell: UITableViewCell {
         // Configure the view for the selected state
     }
     
-    func displayItem(_ menu: Menu) {
-        self.menuImage.image = menu.image
-        self.menuLabel.text = menu.name
-    }
 }

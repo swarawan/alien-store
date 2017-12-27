@@ -6,9 +6,9 @@
 //  Copyright © 2017 Rio Swarawan. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
 struct Menu {
     var name: String?
-    var image: String?
+    var image: UIImage?
 }

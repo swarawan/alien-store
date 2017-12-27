@@ -25,10 +25,10 @@ class MenuPresenter {
     func getAllMenu() {
         
         var menus = [Menu]()
-        menus.append(Menu(name: "Hats", image: "https://www.villagehatshop.com/photos/product/standard/4511390S61504/all/pinch-crown-crushable-wool-felt-fedora-hat.jpg"))
-        menus.append(Menu(name: "Jeans", image: "http://stylefeed.wejoin.us/std_api/kstyle/public/uploads/cache/data/style/2015-02-26/ftSgBjXZ-360x360.jpg"))
-        menus.append(Menu(name: "Shirts", image: "http://stylefeed.wejoin.us/std_api/kstyle/public/uploads/cache/data/style/2015-02-25/m3xcJprh-360x360.jpg"))
+        menus.append(Menu(name: "Hats", image: #imageLiteral(resourceName: "sample-hat")))
+        menus.append(Menu(name: "Jeans", image: #imageLiteral(resourceName: "sample-jeans")))
+        menus.append(Menu(name: "Shirts", image: #imageLiteral(resourceName: "sample-shirt")))
         
-        self.delegate?.displayPatients(menu: menus)
+        self.delegate?.displayMenus(menu: menus)
     }
 }
